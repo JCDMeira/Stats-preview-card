@@ -43,8 +43,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [jcdmeira-order-summary](https://www.frontendmentor.io/solutions/jcdmeiraordersummary-Wd-71ZC58https://your-solution-url.com)
-- Live Site URL: [jcdmeira-order-summary](https://jcdmeira-order-summary.netlify.app/)
+- Solution URL: [jcdmeira-order-summary](https://www.frontendmentor.io/solutions/jcdmeira-statspreviewcard-Z1uHO-OSD)
+- Live Site URL: [jcdmeira-order-summary](https://jcdm-stats-prev.netlify.app)
 
 ## My process
 
