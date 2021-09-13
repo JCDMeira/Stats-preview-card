@@ -1,0 +1,128 @@
+.card {
+  width: 90%;
+  max-width: 48rem;
+  min-height: 85%;
+  background: hsl(244, 38%, 16%);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  border-radius: 1.2rem;
+}
+.fieldImage {
+  width: 100%;
+  flex: 0.3;
+}
+.fieldImage img {
+  width: 100%;
+  border-radius: 1.2rem 1.2rem 0 0;
+}
+
+.fieldInfo {
+  flex: 0.5;
+}
+
+.fieldText {
+  flex: 0.3;
+  padding: 2rem;
+}
+
+.fieldText h1 {
+  font-family: Inter;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-size: 3rem;
+}
+
+.fieldText h1 span {
+  color: hsl(277, 64%, 61%);
+}
+
+.fieldText p {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 1.5rem;
+  font-family: 'Lexend Deca';
+  text-align: center;
+  line-height: 2.4rem;
+  padding: 1rem;
+  color: hsla(0, 0%, 100%, 0.6);
+}
+
+.fieldData {
+  flex: 0.4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+@media (min-width: 628px) {
+  .card .fieldText p {
+    font-size: 1.8rem;
+  }
+}
+
+@media (min-width: 960px) {
+  .card {
+    max-width: 80rem;
+    height: 95%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .card {
+    width: 90%;
+    height: 60rem;
+    max-width: 120rem;
+    background: hsl(244, 38%, 16%);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row-reverse;
+    border-radius: 1.2rem;
+  }
+
+  .fieldImage {
+    width: 100%;
+    flex: 0.5;
+  }
+
+  .fieldImage img {
+    height: 100%;
+    border-radius: 0 1.2rem 1.2rem 0;
+  }
+
+  .card .fieldInfo #fieldInfo {
+    display: flex;
+  }
+
+  .fieldText {
+    padding: 10rem 6rem;
+  }
+
+  .fieldText h1 {
+    text-align: left;
+    margin-top: 0rem;
+    margin-bottom: 4rem;
+    font-size: 4rem;
+  }
+
+  .fieldText h1 span {
+    color: hsl(277, 64%, 61%);
+  }
+
+  .fieldText p {
+    font-size: 1.5rem;
+    text-align: left;
+    line-height: 2.4rem;
+    color: hsla(0, 0%, 100%, 0.6);
+  }
+
+  .fieldData {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+}

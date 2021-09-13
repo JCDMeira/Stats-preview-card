@@ -1,0 +1,36 @@
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: Inter;
+}
+
+.info h1 {
+  margin: 0.8rem;
+  text-transform: uppercase;
+  font-size: 2.6rem;
+}
+
+.info p {
+  color: hsla(0, 0%, 100%, 0.6);
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  padding-bottom: 3rem;
+}
+
+@media (min-width: 1200px) {
+  .info {
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: left;
+  }
+  .info h1 {
+    text-align: left;
+    margin-left: -0.2rem;
+  }
+
+  .info p {
+    text-align: left;
+  }
+}
